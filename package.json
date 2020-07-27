@@ -1,0 +1,35 @@
+{
+  "name": "this-is-module",
+  "version": "0.0.1",
+  "description": "Detect module system and browser/node",
+  "type": "module",
+  "main": "index.cjs",
+  "module": "index.js",
+  "sideEffects": false,
+  "browser": {
+    "./index.js": "./index.browser.js",
+    "./index.cjs": "./index.browser.cjs"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "detect",
+    "commonjs",
+    "es6",
+    "esm",
+    "es modules",
+    "browser",
+    "node",
+    "module system"
+  ],
+  "author": "jeetiss",
+  "license": "ISC"
+}
