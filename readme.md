@@ -26,3 +26,7 @@ console.log(isCjs) // true for node v12
 ```
 npm i is-this-module
 ```
+
+## example
+
+[sandbox](https://codesandbox.io/s/is-this-module-example-603ff)
