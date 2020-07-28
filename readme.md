@@ -1,8 +1,7 @@
 # is this module
 
-<img src="https://ucarecdn.com/7b795eb1-8108-484b-b285-763a563e218f/-/resize/300x/-/quality/smart/"
-     srcset="https://ucarecdn.com/7b795eb1-8108-484b-b285-763a563e218f/-/resize/600x/-/quality/lighter/-/format/auto/ 2x"
-     alt="pigeon with coffee" width="300" align="right">
+<img src="https://ucarecdn.com/7b795eb1-8108-484b-b285-763a563e218f/-/resize/400x/-/quality/lighter/-/format/auto/"
+     alt="pigeon with coffee" width="200" align="right">
 
 Tiny module type checker
 
