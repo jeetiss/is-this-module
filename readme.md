@@ -1,5 +1,8 @@
 # is this module
 
+<img src="https://user-images.githubusercontent.com/1270648/88635580-7f85e100-d0c0-11ea-8c1b-a24f65ed2cec.jpg" align="right"
+     alt="is this meme" width="300">
+
 Tiny module type checker
 
 * **useless** 🤪
