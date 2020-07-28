@@ -1,7 +1,8 @@
 # is this module
 
-<img src="https://user-images.githubusercontent.com/1270648/88635580-7f85e100-d0c0-11ea-8c1b-a24f65ed2cec.jpg" align="right"
-     alt="is this meme" width="300">
+<img src="https://ucarecdn.com/7b795eb1-8108-484b-b285-763a563e218f/-/resize/300x/-/quality/smart/"
+     srcset="https://ucarecdn.com/7b795eb1-8108-484b-b285-763a563e218f/-/resize/600x/-/quality/lighter/-/format/auto/ 2x"
+     alt="pigeon with coffee" width="300" align="right">
 
 Tiny module type checker
 
@@ -13,15 +14,19 @@ Tiny module type checker
 ## usage
 
 ```js
-import { isEsm } from 'is-this-module'
+// node v14
+import { isEsm, isCjs } from 'is-this-module'
 
-console.log(isEsm) // true for node v14
+console.log(isEsm) // true
+console.log(isCjs) // false
 ```
 
 ```js
-const { isCjs } = require('is-this-module')
+// node v12
+const { isEsm, isCjs } = require('is-this-module')
 
-console.log(isCjs) // true for node v12
+console.log(isEsm) // false
+console.log(isCjs) // true
 ```
 
 ## install
