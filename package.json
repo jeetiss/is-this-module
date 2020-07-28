@@ -1,5 +1,5 @@
 {
-  "name": "this-is-module",
+  "name": "is-this-module",
   "version": "0.0.1",
   "description": "Detect module system and browser/node",
   "type": "module",
